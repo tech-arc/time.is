@@ -201,7 +201,7 @@ input {
     line-height: 300px;
     color: #333;
 }
-#clock {
+.time time section span {
     font-family: 'montserrat-extrabold';
 }
 #clock0_bg {
@@ -248,7 +248,6 @@ input {
     display: block;
     font-size: 18px;
     font: normal;
-    font-family: 'Montserrat-extrabold';
     width: 13%;
     background-color: #eee;
     padding: 11px 20px;
@@ -258,6 +257,9 @@ input {
     float: left;
     position: relative;
     color: #333;
+}
+.los a {
+    font-family: 'Montserrat-extrabold';
 }
 .los li {
     font-weight: 400;
@@ -271,7 +273,6 @@ input {
     display: block;
     font-size: 18px;
     font: normal;
-    font-family: 'Montserrat-extrabold';
     width: 11%;
     background-color: #eee;
     padding: 12px 20px;
@@ -281,6 +282,9 @@ input {
     float: left;
     position: relative;
     color: #333;
+}
+.new a {
+    font-family: 'Montserrat-extrabold';
 }
 .new li {
     font-weight: 400;
@@ -294,7 +298,6 @@ input {
     display: block;
     font-size: 18px;
     font: normal;
-    font-family: 'Montserrat-extrabold';
     width: 9.5%;
     background-color: #eee;
     padding: 12px 20px;
@@ -305,28 +308,8 @@ input {
     position: relative;
     color: #333;
 }
-.london li {
-    font-weight: 400;
-    color: #000;
-    font-size: 20px;
-    direction: ltr;
-    line-height: 22px;
-}
-.london {
-    text-align: center;
-    display: block;
-    font-size: 18px;
-    font: normal;
+.london a {
     font-family: 'Montserrat-extrabold';
-    width: 9.5%;
-    background-color: #eee;
-    padding: 12px 20px;
-    margin: -37px 0px 0px 10px;
-    line-height: 22px;
-    font-weight: bold;
-    float: left;
-    position: relative;
-    color: #333;
 }
 .london li {
     font-weight: 400;
