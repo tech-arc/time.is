@@ -201,7 +201,7 @@ input {
     line-height: 300px;
     color: #333;
 }
-.time time section span {
+.h, .s, .m {
     font-family: 'montserrat-extrabold';
 }
 #clock0_bg {
@@ -248,7 +248,7 @@ input {
     display: block;
     font-size: 18px;
     font: normal;
-    width: 13%;
+    width: 13.1%;
     background-color: #eee;
     padding: 11px 20px;
     margin: -37px 0px 0px 270px;
@@ -258,7 +258,7 @@ input {
     position: relative;
     color: #333;
 }
-.los a {
+.los text {
     font-family: 'Montserrat-extrabold';
 }
 .los li {
