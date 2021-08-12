@@ -24,6 +24,34 @@ body, select, input, textarea{
     font-feature-settings: normal;
     color: #333;
 }
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url(Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-extrabold';
+    src: url(Montserrat-Extrabold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-black';
+    src: url(Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url(Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url(Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montseerat-extralight';
+    src: url(Montserrat-ExtraLight.ttf);
+}
 li {
     list-style: none;
 }
