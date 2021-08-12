@@ -215,10 +215,10 @@ input {
     margin-left: -.5px;
     font-weight: 300;
 }
-#clock .type {
+.type p {
     font-family: 'Montserrat-extrabold' ;
     font-size: 228px;
-    line-height: 400px;
+    line-height: 340px;
     margin-left: 116.5px;
     width: 100%;
 }
